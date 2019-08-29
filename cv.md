@@ -7,7 +7,7 @@ email: breaul@gmail.com
 
 ## *__Expérience Professionnelle__*
 
-* 2016 à actuellement  
+* 2016 à now    
 *KMC Traductions, Molières Cavaillac*  
  **Présidente**
   * Société de traduction anglais/français, elearning, mise en ligne directement des fichiers dans CMS
