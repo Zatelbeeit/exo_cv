@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    font-size: 3em;
+    color: #d94111;
+    text-align: center;
+}
+
+p {
+    
+    color: #164066;
+    text-align: center;
+    font-size: 1em;
+}
+
+ul{
+    list-style: none;
+    color:#164066
+}
+
+a{
+    color: teal;
+}
+
+em{
+    color: #d94111;
+    font-size: 1em;
+}
+hr{
+    color:#164066;
+}
+h2{
+    font-size: 2em;
+    color:#f22305;
+    font-style: italic;
+}
+.date {
+    color: #006803;
+}
