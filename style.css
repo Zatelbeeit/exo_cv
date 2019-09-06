@@ -1,19 +1,49 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    max-width: 60%;
+    margin: auto;
 }
 h1{
     font-size: 3em;
     color: #d94111;
     text-align: center;
 }
+.menu{
+    display: block;
+    margin:0;
+    text-align: center;
+}
 
-p {
+.menu li a{
+    display: inline-block;
+    color: #d94111;
+    padding: 6px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0e4788;
+    color:#FFFFFF;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#coordonnees {
     
     color: #164066;
     text-align: center;
     font-size: 1em;
 }
-
+#competences1{
+    color: #164066;
+    text-align: left;
+    padding:15px 1px;
+}
 ul{
     list-style: none;
     color:#164066
@@ -23,6 +53,13 @@ a{
     color: teal;
 }
 
+a:link{
+    color:#d94111;
+}
+
+a:hover{
+    color:#164066;
+}
 em{
     color: #d94111;
     font-size: 1em;
@@ -36,5 +73,49 @@ h2{
     font-style: italic;
 }
 .date {
-    color: #006803;
+    color: #142675;
 }
+.titreSec {
+    color:#d94111;
+    font-weight: 600;
+}
+.form{
+   color:#164066;
+   padding: 1em;
+   list-style: none;
+}
+ .required {
+    color:red;
+}
+.phone, .reason, .email{
+    width: 100%;
+}
+#first_name, #name {
+    display:inline-block;
+    width: 37%;
+}
+.message{
+    width: 100%;
+    height: 5em;
+}
+#envoyer {
+    float:right;
+    color: #d94111;
+    border:none;
+    padding: 5px;
+}   
+#envoyer:hover {   
+    background-color: #0e4788;
+    color:#FFFFFF;
+}
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: #f22305;
+    color: #FFFFFF;
+  }
+  

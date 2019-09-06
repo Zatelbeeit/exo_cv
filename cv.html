@@ -6,15 +6,30 @@
       <link rel="stylesheet" href="style.css" />
   </head>
     <body>
+      <section>
     <h1>Louise Bréau</h1>
+    <div class="menu">
+    <ul>
+      <li><a href="#coordonnees">Coordonnées</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#exp_prof">Expérience Professionnelle</a></li>
+      <li><a href="#parc_scol">Parcours Scolaires</a></li>
+      <li><a href="#langues">Langues</a></li>
+      <li><a href="#loisirs">Loisirs</a></li>
+      <li><a href="#contact">Contacter moi</a></li>
+    </ul>
+  </div>
     <hr />
-    <img src="https://images.app.goo.gl/UtbkU2SwjFgdexdU6" alt="my photo"/>  
-    <p>326 chemin de la Borie <br/>  
+    <img src="https://media.licdn.com/dms/image/C4D03AQH8sURlx5HKLQ/profile-displayphoto-shrink_200_200/0?e=1573084800&v=beta&t=BObeDweImbgD5vwzQXKq5OhLek-kLn0ydBKj4FhUd08" alt="my photo"/>  
+    <p id="coordonnees">326 chemin de la Borie <br/>  
                   30120 Mandagout  <br/>
                   Tél:0789331494  <br/>
-    <a href=mailto:breaul@gmail.com>email: breaul@gmail.com</a></p>  
+    <span class="email"><a href=mailto:breaul@gmail.com>email: breaul@gmail.com</a></span></p>  
     <hr />
-    <h2>Expérience Professionnelle</h2>
+    <h2 id="competences">Compétences</h2>
+    <p id="competences1">Très motivée et passionnée par les téchnologies digitales, bonnes connaissances en mode projet, "team player" qui aime fédérer tout le monde autour du même projet, motivante</p>
+
+    <h2 id="exp_prof">Expérience Professionnelle</h2>
 
     <ul>
       <li><span class="date">2016 à présent</span></li>    
@@ -56,10 +71,66 @@
         <li><strong>Employée polyvalente</strong></li>
         <li>création de fichiers en HTML pour utilisation sur un CD-Rom</li>
     </ul>
-    <h2>Parcours Scolaire</h2> 
+    <h2 id="parc_scol">Parcours Scolaire</h2> 
     <ul>
+         <li><span class="date">2019-2020</span> Titre professionnel Dévelopement Web</li>
          <li><span class="date">1996 </span><strong>BA Hons European Business Studies - spécialisé Compta finance</strong></li>
          <li>Thèse sur l'utilisation du CD Photo en France</li>
-    </ul>   
+    </ul>  
+    <h2 id="langues">Langues</h2> 
+    <ul>
+          <li><span class="titreSec">Anglais</span> Langue Maternelle</li>
+          <li><span class="titreSec">Français</span> Courant (25 ans de vie en France)</li>
+          <li><span class="titreSec">Espagnol</span> Débutant</li>
+          <li><span class="titreSec">Finnois</span> Débutant</li>
+    </ul>
+    <h2 id="loisirs">Loisirs</h2>
+    <ul>
+      <li><span class="titreSec">Musique</span> Depuis 3 ans je joues le fifre dans un ensemble traditionnel, musique de rue</li>
+      <li><span class="titreSec">Sport</span> Badminton et natation</li>
+      <li><span class="titreSec">Randonnée</span> Pour découvrir un pays et ses régions il n'y a pas mieux</li>
+      <li><span class="titreSec">Voyage</span> Je suis partie toute seule pendant 4 mois en 2019 pour découvrir la Nouvelle Zélande et l'Australie</li>
+      <li><span class="titreSec">Cuisine</span> Après 12 ans comme cuisinière, il est difficle de ne pas aimer faire la cuisine</li>
+    </ul>
+    <h2 id="contact">Contact</h2>
+    <div class="form">
+    <form method="post" action="#">
+     
+      <ul>
+      <div class="name">
+        <li>
+      <label for="name" required="required">Nom:<span class="required">*</span></label>
+      <input type="text" name="nom" id="name" />
+      <label for="first_name" required="required">Prénom:<span class="required">*</span></label>
+      <input type="text" name="prénom" id="first_name" />
+    </li></div>
+      <div class="sender_mail">
+      <li><label for="email" required="required">Votre email:<span class="required">*</span></label>
+      <input type="email" name="email" id="email" class="email"/></li>
+    </div>
+    <div class="phone_num">
+      <li><label for="phone" required="required" >Votre téléphone:<span class="required">*</span></label>
+      <input type="tel" name="phone" id="phone" class="phone"/></li>
+    </div>
+      <div class="contact_reason">
+      <li><label for ="contact_reason" required="required">Motif de contact<span class="required">*</span></label>
+      <select name="motif" id="contact_reason" class="reason">
+          <option value="contact">Premier contact</option>
+          <option value="job">Offre d'emploi</option>
+          <option value="charme">mon charme irrésistible </option>
+      </select></li>
+    </div>
+    <div class="message1">
+      <li><label for="message" required="required" id="message">Votre message:<span class="required">*</span></label>
+      <textarea class="message">message:</textarea> 
+    </li></div>
+    <li><span class="required">*</span> champs obligatoire</li>
+    <li><input type="submit" value="Envoyer" id="envoyer"/></li>
+  </ul>
+    </form>
+  </div>
+  </section>
+    <a href="#top" id="fixed">TOP</a>
+
     </body>
  </html>
